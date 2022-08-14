@@ -9,13 +9,13 @@ export interface WorkCardProps {
 
 export default function WorkCard({ work }: WorkCardProps) {
     return (
-        <Stack direction={{ xs: 'column', md: 'row' }} spacing={2}>
-            <Box width={{ xs: '100%', md: '246px' }} flexShrink={0}>
+        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
+            <Box width={{ xs: '100%', sm: '246px' }} flexShrink={0}>
                 <Image src={work.thumbnailUrl} width={246} height={180} layout="responsive" alt="work thumbnail" />
             </Box>
 
             <Box>
-                <Typography variant="h4" fontWeight="bold">
+                <Typography variant="h5" fontWeight="bold">
                     {' '}
                     {work.title}{' '}
                 </Typography>
