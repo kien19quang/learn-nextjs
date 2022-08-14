@@ -3,6 +3,7 @@ import { EmptyLayout } from '@/component/layouts';
 import { AppPropsWithLayout } from '@/models';
 import { SWRConfig } from 'swr';
 import '../styles/globals.css';
+import '../styles/prism.css';
 
 import { createEmotionCache } from '@/utils';
 import theme from '@/utils/theme';
